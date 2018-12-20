@@ -21,10 +21,28 @@
 
               <div class="form-row mb-2">
               
-                <div class="col-12">{{query}}
+                <div class="col-12">
                   <input class="form-control form-control-lg" ng-model="query" id="searchQuery" placeholder="Search..." autofocus>
                 </div>
               </div>
+
+              <div class="form-row">
+                  <div class="col">
+                    <select class="form-control form-control-inline mr-3 w-100" ng-model="movieOrder">
+                      <option value="name">Name</option>
+                      <option value="reknown">Description</option>
+                    </select>
+                  </div>
+                  <div class="col-5 col-md-4">
+                    <div class="form-check form-check-inline">
+                      <label class="form-check-label"><input class="form-check-input" ng-model="direction" type="radio" name="direction" checked> asc</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                        <input class="form-check-input" ng-model="direction" type="radio" name="direction" value="reverse"> desc</label>
+                    </div>
+                  </div>
+                </div>
 
           </div>
       </div>
@@ -37,7 +55,7 @@
     <div class="col-12 col-md-8 col-lg-6 card p-3" ng-if="movies.length > 0">
       <ul class=" list-group d-flex"> 
         <!--  filter: query"   orderBy:'name'"   orderBy:'name':'reverse'" -->
-        <li class="list-group-item movie-item" ng-repeat="movie in movies | filter: query | orderBy:'name'" >
+        <li class="list-group-item movie-item" ng-repeat="movie in movies | filter: query | orderBy:movieOrder:direction" >
 
             <div class="media d-flex align-items-center">
               <img class="rounded-circle mr-3"
