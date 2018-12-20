@@ -2,7 +2,7 @@
     {
         "name": "her",
         "imagename": "her",
-        "director: ": "Spike Jonze",
+        "director": "Spike Jonze",
         "writer": ["Spike Jonze"],
         "genre": ["Drama", "Romance", "Sci-Fi"],
         "shortdescription": "a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
@@ -11,25 +11,16 @@
     {
         "name": "life of Pi",
         "imagename": "life-of-pi",
-        "director: ": "life-of-pie",
+        "director": "Ang Lee",
         "writer": ["Yann Martel", "David Magee"],
         "genre": ["Adventure", "DramaFantas", "Fantasy"],
         "shortdescription": "A young man who survives a disaster at sea is hurtled into an epic journey of adventure and discovery. While cast away, he forms an unexpected connection with another survivor: a fearsome Bengal tiger.",
         "fulldescription": "In Canada, a writer visits the Indian storyteller Pi Patel and asks him to tell his life story. Pi tells the story of his childhood in Pondicherry, India, and the origin of his nickname. One day, his father, a zoo owner, explains that the municipality is no longer supporting the zoo and he has hence decided to move to Canada, where the animals the family owns would also be sold. They board on a Japanese cargo ship with the animals and out of the blue, there is a storm, followed by a shipwrecking. Pi survives in a lifeboat with a zebra, an orangutan, a hyena and a male Bengal tiger nicknamed Richard Parker. They are adrift in the Pacific Ocean, with aggressive hyena and Richard Parker getting hungry. Pi needs to find a way to survive."
     },
     {
-        "name": "black swan",
-        "imagename": "black-swan",
-        "director: ": "Darren Aronofsky",
-        "writer": ["Mark Heyman", "Andres Heinz", "John J. McLaughlin", "Andres Heinz"],
-        "genre": ["Drama", "Romance", "Sci-Fi"],
-        "shortdescription": "A committed dancer wins the lead role in a production of Tchaikovsky's 'Swan Lake' only to find herself struggling to maintain her sanity.",
-        "fulldescription": "Nina (Portman) is a ballerina in a New York City ballet company whose life, like all those in her profession, is completely consumed with dance. She lives with her obsessive former ballerina mother Erica (Hershey) who exerts a suffocating control over her. When artistic director Thomas Leroy (Cassel) decides to replace prima ballerina Beth MacIntyre (Ryder) for the opening production of their new season, Swan Lake, Nina is his first choice. But Nina has competition: a new dancer, Lily (Kunis), who impresses Leroy as well. Swan Lake requires a dancer who can play both the White Swan with innocence and grace, and the Black Swan, who represents guile and sensuality. Nina fits the White Swan role perfectly but Lily is the personification of the Black Swan. As the two young dancers expand their rivalry into a twisted friendship, Nina begins to get more in touch with her dark side - a recklessness that threatens to destroy her."
-    },
-    {
         "name": "the fifth element",
         "imagename": "the-fifth-element",
-        "director: ": "Luc Besson",
+        "director": "Luc Besson",
         "writer": ["Luc Besson", "Robert Mark Kamen"],
         "genre": ["Action, Adventure", "Sci-Fi"],
         "shortdescription": "In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay.",
@@ -38,7 +29,7 @@
     {
         "name": "pulp fiction",
         "imagename": "pulp-fiction",
-        "director: ": "Quentin Tarantino",
+        "director": "Quentin Tarantino",
         "writer": ["Quentin Tarantino", "Roger Avary"],
         "genre": ["crime", "drama"],
         "shortdescription": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",

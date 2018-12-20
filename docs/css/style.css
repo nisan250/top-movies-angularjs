@@ -10,3 +10,12 @@
     text-transform: capitalize;
 }
 
+.movie-details-wrapper {
+    font-size: 17px;
+}
+.shortdescription  {
+    color: #555;
+}
+.link-details:hover {
+    text-decoration: none;
+}
