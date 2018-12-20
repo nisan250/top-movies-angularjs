@@ -1,0 +1,12 @@
+.movie-item {
+    cursor: pointer;
+}
+
+.media-body .title{
+    text-transform: capitalize;
+}
+
+.media-body .genre{
+    text-transform: capitalize;
+}
+
