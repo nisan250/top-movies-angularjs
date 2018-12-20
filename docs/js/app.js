@@ -1,8 +1,12 @@
-var myApp =angular.module('myApp', []);
+var myApp = angular.module('myApp', [
+    'ngRoute',
+    'myControllers'
+]);
 
-myApp.controller('AppController', function AppController($scope, $http) {
-    $http.get('js/data.json').then(function(response) {
-        $scope.movies = response.data;
-        $scope.movieOrder = 'name';
-    });
-});
+myApp.config(['$routeProvider', function($routeProvider) {
+    $routeProvider
+        .when('/', {
+            templateUrl: 'js/partials/search.html',
+            controller: 'SearchController'
+        });
+}]);
