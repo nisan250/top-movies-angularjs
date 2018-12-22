@@ -1,2 +1,4 @@
-﻿# top-movies-angularjs
-AngularJS App withsearch and sort capabilities 
+
+
+# top-movies-angularjs
+AngularJS App with search and sort capabilities 
